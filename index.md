@@ -15,11 +15,9 @@ Specifically trying to answer the questions:
 ## Data
 
 The two datasets are provided by Olist, the largest department store retailer in Brazilian marketplaces. 
-
 #### [E-commerce dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce)
 
 The e-commerce dataset is real and anonymized commercial data containing over 100,000 orders executed on Olist’s site from 2016 to 2018. Features include: order status, price, payment, delivery, freight performance, customer location, product attributes, reviews, and seller geolocation data. 
-
 #### [Marketing dataset](https://www.kaggle.com/olistbr/marketing-funnel-olist)
 
 The marketing dataset is from the marketing funnel of sellers that filled-in requests to sell products on Olist. The dataset has information on 8,000 marketing qualified leads from 2017 to 2018, as well as features describing the deals that were closed. Features include: lead type, lead behavior profile, lead category, catalog size, business type, average stock, sales representative, date the deal was closed, origin of the lead. 
