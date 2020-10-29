@@ -10,7 +10,7 @@ This project conducts Value Prediction and time-series forecasting on e-commerce
 Specifically trying to answer the questions: 
 - Can we detect any patterns in revenue sources either by seller, product type, or location? 
 - What factors from our marketing funnel have the biggest impact on a seller's revenue? 
-- Can we use this information to accurate predict revenue given time-series data? 
+- Can we use these features to accurately predict revenue given time-series data? 
 
 ## Data
 
