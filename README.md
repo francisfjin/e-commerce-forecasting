@@ -23,7 +23,7 @@ Target variable revenue is investigated by time-series and grouped by seller and
 
 ![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/monthly.png)
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/autocorr.png)
+![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/autocorrelation.png)
 
 Features for the dataset are listed on Kaggle [here](https://www.kaggle.com/olistbr/brazilian-ecommerce) and [here](https://www.kaggle.com/olistbr/marketing-funnel-olist).
 
