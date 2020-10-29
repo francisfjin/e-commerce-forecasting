@@ -73,6 +73,8 @@ And the top seller on Olist is an 'online big', accounting for 16.7% of total re
 
 ![top](/images/top.png)
 
+![topseller](/images/topseller.png)
+
 ## Feature Engineering and Selection
 
 We use one-hot encoding as well as label encoding to convert categorical features, depending on how many classes the feature has and whether it is ordinal or just cardinal. Then we use mutual information regression feature selection from Sklearn to generate feature importances.
