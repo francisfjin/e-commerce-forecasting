@@ -14,7 +14,7 @@ Specifically trying to answer the questions:
 
 ## Data
 
-The two datasets are provided by Olist, the largest department store retailer in Brazilian marketplaces. 
+The two datasets are provided by Olist, the largest department store retailer in Brazilian marketplaces. They generously published on Kaggle. 
 #### [E-commerce dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce)
 
 The e-commerce dataset is real and anonymized commercial data containing over 100,000 orders executed on Olist’s site from 2016 to 2018. Features include: order status, price, payment, delivery, freight performance, customer location, product attributes, reviews, and seller geolocation data. 
