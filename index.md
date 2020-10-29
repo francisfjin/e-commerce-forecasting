@@ -1,4 +1,5 @@
 # E-Commerce: Value Prediction and Time-Series Forecasting
+## By Francis Jin
 
 ![logo](/images/ecommerce.jpeg)
 
