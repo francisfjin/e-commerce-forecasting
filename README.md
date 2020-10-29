@@ -15,17 +15,6 @@ Datasets are published on Kaggle by Olist, the largest department store retailer
 
 [Marketing datatset](https://www.kaggle.com/olistbr/marketing-funnel-olist)
 
-## Exploratory Data Analysis
-
-EDA visualizations provide valuable business insights. Target variable revenue is investigated by time-series and grouped by seller and product category. 
-
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/timeseries.png)
-
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/monthly.png)
-
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/autocorrelation.png)
-
-Features for the dataset are listed on Kaggle [here](https://www.kaggle.com/olistbr/brazilian-ecommerce) and [here](https://www.kaggle.com/olistbr/marketing-funnel-olist).
 
 ## Models
 
