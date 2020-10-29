@@ -101,7 +101,7 @@ The time-series revenue data is split into training and test sets. First, we inv
 
 ![autocorrelation](/images/autocorrelation.png)
 
-MinMax scaling is performed and fed into the following neural networks for comparison: Vanilla Recurrent NN, LSTM, GRU. Overall, the model seems to underestimate the peaks.
+MinMax scaling is performed and fed into the following neural networks for comparison: Vanilla Recurrent NN, LSTM, GRU. Overall, the model seems to underestimate the peaks but generally does a good job of predicting revenue!
 
 ![NN](/images/NN.png)
 
