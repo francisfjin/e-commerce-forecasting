@@ -1,5 +1,5 @@
 # E-Commerce: Value Prediction and Time-Series Forecasting
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/ecommerce.jpeg)
+![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/ecommerce.jpeg)
 
 This project conducts Value Prediction and time-series forecasting on e-commerce data to analyze trends in revenue and marketing funnel effectiveness for a large-scale online retailer. 
 
