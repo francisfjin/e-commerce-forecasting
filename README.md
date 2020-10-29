@@ -22,7 +22,7 @@ Datasets are published on Kaggle by Olist, the largest department store retailer
 
 [Keras neural networks](https://keras.io/)
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png)
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png" height="24" width="48">
 
 [Facebook Prophet](https://facebook.github.io/prophet/)
 
