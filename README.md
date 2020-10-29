@@ -12,6 +12,7 @@ Final report [here]( ).
 Datasets are published on Kaggle by Olist, the largest department store retailer in Brazil. 
 
 [E-commerce dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce)
+
 [Marketing datatset](https://www.kaggle.com/olistbr/marketing-funnel-olist)
 
 ## Exploratory Data Analysis and Feature Selection
