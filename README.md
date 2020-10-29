@@ -3,6 +3,11 @@
 
 This project conducts Value Prediction and time-series forecasting on e-commerce data to analyze trends in revenue and marketing funnel effectiveness for a large-scale online retailer. 
 
+Specifically trying to answer the questions: 
+- Can we detect any patterns in revenue sources either by seller, product type, or location? 
+- What factors from our marketing funnel have the biggest impact on a seller's revenue? 
+- Can we use this information to accurate predict revenue given time-series data? 
+
 Main script [here](https://github.com/francisfjin/e-commerce-forecasting/blob/main/final.ipynb).
 
 Final report [here]( ).
