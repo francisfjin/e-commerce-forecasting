@@ -22,11 +22,11 @@ Datasets are published on Kaggle by Olist, the largest department store retailer
 
 [Keras neural networks](https://keras.io/)
 
-<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png" height="24" width="48">
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png" height="100" width="200">
 
 [Facebook Prophet](https://facebook.github.io/prophet/)
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/prophet.png)
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/prophet.png" height="100" width="200">
 
 It is a forecasting procedure made by Facebook's Core Data Science team, based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It can be installed [here.](https://pypi.org/project/fbprophet/)
 
