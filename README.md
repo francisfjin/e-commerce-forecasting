@@ -35,7 +35,7 @@ Predictions
 
 ![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png)
 
-[Facebook Prophet](https://facebook.github.io/prophet/) is used as well for time-series forecasting. 
+[Facebook Prophet](https://facebook.github.io/prophet/) is used as well for time-series forecasting. It is a forecasting procedure made by Facebook's Core Data Science team, based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It can be installed [here](https://pypi.org/project/fbprophet/)
 
 
 
