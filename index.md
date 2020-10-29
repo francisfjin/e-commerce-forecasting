@@ -44,6 +44,7 @@ Time-series data is generated to view total revenue over the time period availab
 
 ![map](/images/timeseries.png)
 
+
 _Sellers_
 
 Grouping by seller_id, we investigate the distribution of revenue per seller. As seen, most sellers generate a small amount of revenue while there are a few big generators and one top seller that is definitely an outlier. 
@@ -80,7 +81,7 @@ We use one-hot encoding as well as label encoding to convert categorical feature
 
 ![features](/images/features.png)
 
-Interestingly, the second most important feature is ‘lead_behaviour_profile’, from the DISC personality test (https://www.discprofile.com/what-is-disc/overview/). The sales representative identifies this on contact with the seller.
+Interestingly, the second most important feature is ‘lead_behaviour_profile’, from the [DISC personality test](https://www.discprofile.com/what-is-disc/overview/). The sales representative identifies this on contact with the seller.
 
 ![disc](/images/disc.png)
 
