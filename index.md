@@ -1,4 +1,3 @@
-0
 # E-Commerce: Value Prediction and Time-series Forecasting
 
 ## Problem
