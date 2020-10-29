@@ -23,6 +23,8 @@ Target variable revenue is investigated by time-series and grouped by seller and
 
 ![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/monthly.png)
 
+![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/autocorr.png)
+
 Features for the dataset are listed on Kaggle [here](https://www.kaggle.com/olistbr/brazilian-ecommerce) and [here](https://www.kaggle.com/olistbr/marketing-funnel-olist).
 
 ## Models
@@ -30,8 +32,6 @@ Features for the dataset are listed on Kaggle [here](https://www.kaggle.com/olis
 [Sklearn linear regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
 
 [Keras neural networks](https://keras.io/)
-
-Predictions
 
 ![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png)
 
