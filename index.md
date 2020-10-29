@@ -42,19 +42,20 @@ _Time-Series_
 
 Time-series data is generated to view total revenue over the time period available, rounded to units in days. 
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/timeseries.png)
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/timeseries.png" height="400" width="700">
 
 _Sellers_
 
 Grouping by seller_id, we investigate the distribution of revenue per seller. As seen, most sellers generate a small amount of revenue while there are a few big generators and one top seller that is definitely an outlier. 
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/seller.png)
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/seller.png" height="400" width="700">
 
 _Location_
 
 Grouping by location, we investigate the distribution of revenue per city. We see that a few cities account for the bulk of the revenue. 
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/cities.png)
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/cities.png" height="400" width="700">
+
 
 _Monthly Revenue by Seller_
 
