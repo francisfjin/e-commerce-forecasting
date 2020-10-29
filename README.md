@@ -30,7 +30,7 @@ The marketing dataset is from the marketing funnel of sellers that filled-in req
 
 [Keras neural networks](https://keras.io/)
 
-<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png" height="400" width="700">
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png" height="400" width="600">
 
 [Facebook Prophet](https://facebook.github.io/prophet/)
 
