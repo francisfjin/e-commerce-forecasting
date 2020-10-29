@@ -32,11 +32,10 @@ The marketing dataset is from the marketing funnel of sellers that filled-in req
 
 <img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/neuralnet.png" height="400" width="600">
 
-[Facebook Prophet](https://facebook.github.io/prophet/)
+[Facebook Prophet](https://facebook.github.io/prophet/). It is a forecasting procedure made by Facebook's Core Data Science team, based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It can be installed [here.](https://pypi.org/project/fbprophet/)
 
-<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/prophet.png" height="400" width="700">
+<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/prophet.png" height="400" width="600">
 
-It is a forecasting procedure made by Facebook's Core Data Science team, based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It can be installed [here.](https://pypi.org/project/fbprophet/)
 
 
 
