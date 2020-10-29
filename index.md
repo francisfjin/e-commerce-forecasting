@@ -1,5 +1,5 @@
 # E-Commerce: Value Prediction and Time-Series Forecasting
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/ecommerce.jpeg)
+![logo](/images/ecommerce.jpeg)
 
 ## Problem
 
@@ -26,7 +26,7 @@ The marketing dataset is from the marketing funnel of sellers that filled-in req
 
 We import all relevant CSVs and join as per the data mappings. 
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/datamap.png)
+![map](/images/datamap.png)
 
 Target Variable is ‘price’ column which is the price the customer paid for each order. This represents the gross sales number for each order. We rename this column 'revenue'. 
 
@@ -42,36 +42,35 @@ _Time-Series_
 
 Time-series data is generated to view total revenue over the time period available, rounded to units in days. 
 
-<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/timeseries.png" height="400" width="700">
+![map](/images/timeseries.png)
 
 _Sellers_
 
 Grouping by seller_id, we investigate the distribution of revenue per seller. As seen, most sellers generate a small amount of revenue while there are a few big generators and one top seller that is definitely an outlier. 
 
-<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/seller.png" height="400" width="700">
+![map](/images/seller.png)
 
 _Location_
 
 Grouping by location, we investigate the distribution of revenue per city. We see that a few cities account for the bulk of the revenue. 
 
-<img src="https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/cities.png" height="400" width="700">
-
+![map](/images/cities.png)
 
 _Monthly Revenue by Seller_
 
 Grouping by the top 20 sellers and plotting over time, we see the graphs of monthly revenues by seller.
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/monthly.png)
+![monthly](/images/monthly.png)
 
 _Top Seller_
 
 Filtering for the top seller, we split revenue by product group to see which ones are generating the most revenue. The 'watches_gifts' category actually generated 79.3% of total revenue for seller. Revenue shows traits of seasonality as it increased in March and peaked in May.
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/monthlycats.png)
+![monthlycats](/images/monthlycats.png)
 
 And the top seller on Olist is an 'online big', accounting for 16.7% of total revenue, and its business type is 'reseller'. Theoretically it could be a large internet-based company with large market share or strong brand awareness. These characteristics can inform future marketing decisions when deciding which types of sellers to target for Olist.
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/top.png)
+![top](/images/top.png)
 
 ## Feature Engineering and Selection
 
@@ -79,11 +78,11 @@ We use one-hot encoding as well as label encoding to convert categorical feature
 
 ‘Lead-type’ has the highest correlation with the target variable ‘revenue’, making it the most important feature. This qualitatively makes sense given that this feature is what tells you what size and type of retailer the seller is (online_medium, online_big, online_small, industry, offline_beginner, offline, online_top).
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/features.png)
+![features](/images/features.png)
 
 Interestingly, the second most important feature is ‘lead_behaviour_profile’, from the DISC personality test (https://www.discprofile.com/what-is-disc/overview/). The sales representative identifies this on contact with the seller.
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/disc.png)
+![disc](/images/disc.png)
 
 This confirms the hypothesis not only that the marketing funnel for leads for sellers can help predict revenue, but also which types of leads are best to target to maximize future revenue.
 
@@ -93,21 +92,21 @@ A Ridge regression model is ran because of the large number of features in the d
 
 The result on the test set is a low R-squared score ~.25 which means low predictive power in linear space.  
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/preds.png)
+![preds](/images/preds.png)
 
 ## Time-Series Forecasting
 
 The time-series revenue data is split into training and test sets. First, we investigate autocorrelation in the dataset to see if periods of data are correlated with other periods. We see that the spikes are statistically significant for lags up to 8 time periods (in this case, number of *days*).
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/autocorrelation.png)
+![autocorrelation](/images/autocorrelation.png)
 
 MinMax scaling is performed and fed into the following neural networks for comparison: Vanilla Recurrent NN, LSTM, GRU. Overall, the model seems to underestimate the peaks.
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/NN.png)
+![NN](/images/NN.png)
 
 The time series data is then fit with the [Facebook Prophet procedure](https://facebook.github.io/prophet/) for time-series forecasting, which as you can see from results requires additional tuning. It is based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects
 
-![](https://github.com/francisfjin/e-commerce-forecasting/blob/main/images/prophet.png)
+![prophet](/images/prophet.png)
 
 ## Conclusions
 
