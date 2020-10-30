@@ -81,7 +81,7 @@ The lead_type of the seller is an 'online big' and its business type is 'reselle
 
 ## Feature Engineering and Selection
 
-We use one-hot encoding as well as label encoding to convert categorical features, depending on how many classes the feature has and whether it is ordinal or just cardinal. Then we use mutual information regression feature selection from Sklearn to generate feature importances.
+We use [one-hot encoding](https://www.kaggle.com/dansbecker/using-categorical-data-with-one-hot-encoding) as well as [label encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html) to convert categorical features, depending on how many classes the feature has and whether it is ordinal or just cardinal. Then we use mutual information regression feature selection from Sklearn to generate feature importances.
 
 ‘Lead-type’ has the highest correlation with the target variable ‘revenue’, making it the most important feature. This qualitatively makes sense given that this feature is what tells you what size and type of retailer the seller is (online_medium, online_big, online_small, industry, offline_beginner, offline, online_top).
 
