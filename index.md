@@ -2,6 +2,7 @@
 ## By Francis Jin
 
 ![logo](/images/ecommerce.jpeg)
+[image source](https://www.europeanbusinessreview.com/innovation-trends-in-ecommerce-for-2020/)
 
 ## Problem
 
