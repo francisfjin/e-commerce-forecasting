@@ -1,8 +1,8 @@
 # E-Commerce: Value Prediction and Time-Series Forecasting
 ## By Francis Jin
 
-![logo](/images/ecommerce.jpeg)
-[image source](https://www.europeanbusinessreview.com/innovation-trends-in-ecommerce-for-2020/)
+![logo](/images/ecommerce.png)
+[image source](https://www.ecommerce-nation.com/avoid-10-biggest-ecommerce-blunders/)
 
 ## Problem
 
