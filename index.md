@@ -74,7 +74,7 @@ The top seller on Olist accounts for 16.7% of total revenue.
 
 ![topseller](/images/topseller.png)
 
-The lead_type of the seller is an 'online big' and its business type is 'reseller'. Theoretically, it could be a large internet-based company with large market share or strong brand awareness. Knowing these characteristics can inform future marketing decisions when deciding which types of sellers to target for Olist's marketing funnel.
+The top seller on Olist, accounting for 16.7% of total revenue for the time period, is an 'online_big' and 'reseller'. This indicates that most likely it is a internet-based company with command of market share. These characteristics can heuristically inform future marketing decisions when deciding which types of sellers to target for Olist.
 
 ![top](/images/top.png)
 
